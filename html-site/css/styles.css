@@ -1,0 +1,86 @@
+/*
+Colors used:
+Primary Color: #824848;
+Secondary Color: #D6AF89;
+Text Color: #894848;
+Backgroud Color: #4F001A;
+*/
+
+
+h1{
+	text-align: left;
+	color: #894848;
+	background: #4F001A;
+	font-family: Charcoal;
+
+}
+
+h2{
+	font-family: Comic Sans, sans-serif;
+}
+
+h3{
+	font: italic Arials;
+	color: #894848;
+	position: relative;
+	bottom: 0;
+	left: 0;
+}
+p {
+    text-align: center;
+    color: #894848;
+    font: italic 16px Lucida Handwriting , Charcoal, sans-serif;
+    background-color: #4F001A;
+    padding: 5px;
+    border: solid 3px purple;
+    margin: auto;
+}
+
+a{
+	color: #D6AF89;
+}
+
+a:hover{
+	color: purple;
+}
+
+a:link{
+	color: red;
+}
+
+a:active{
+	color: black;
+}
+#slideshow {
+    background: #4F001A;
+    border: 1px black;
+}
+
+ul li {
+	background: white;
+    margin: 5px;
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.better {
+    background-color: yellow;
+    border: none !important;
+}
+
+
+.projects{
+	position: relative;
+	background-color: #4F001A;
+	font-family: Arials, sans-serif
+	color: #824848;
+	padding: 3px;
+	border: dashed 3px #D6AF89;
+}
+
+
+
+
+
