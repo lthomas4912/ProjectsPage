@@ -1,16 +1,21 @@
 /*
 Colors used:
-Primary Color: #824848;
-Secondary Color: #D6AF89;
-Text Color: #894848;
-Backgroud Color: #4F001A;
+Primary Color: #DFAEB4;
+Secondary Color: #3A1236;
+Third Color: #DD9AC2;
+Text Color: #4F0E42;
+Backgroud Color: #EACBD2;
 */
 
+body{
+	background: #EACBD2;
+}
 
 h1{
-	text-align: left;
-	color: #894848;
-	background: #4F001A;
+	text-align: center;
+	color: #4F0E42;
+	background-color: #DFAEB4;
+	background-size: contain;
 	font-family: Charcoal;
 
 }
@@ -51,17 +56,17 @@ a:link{
 a:active{
 	color: black;
 }
-#slideshow {
-    background: #4F001A;
+/*#slideshow {
+    
     border: 1px black;
-}
+}*/
 
 ul li {
 	background: white;
     margin: 5px;
     display: inline-block;
     padding: 20px;
-    border: 1px solid black;
+    border: 1px solid #3A1236;
     margin: 10px;
 }
 
