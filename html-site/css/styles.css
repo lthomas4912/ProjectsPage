@@ -34,10 +34,8 @@ h3{
 p {
     text-align: center;
     color: #894848;
-    font: italic 16px Lucida Handwriting , Charcoal, sans-serif;
-    background-color: #4F001A;
+    font: italic 20px Lucida Handwriting , Charcoal, sans-serif;
     padding: 5px;
-    border: solid 3px purple;
     margin: auto;
 }
 
@@ -64,10 +62,11 @@ a:active{
 ul li {
 	background: #AD7998;
     margin: 5px;
-    display: inline-block;
+    display: block;
     padding: 20px;
     border: 3px solid #3A1236;
     margin: 10px;
+    float: left;
 }
 
 .better {
@@ -78,21 +77,16 @@ ul li {
 
 .projects{
 	position: relative;
-	background-color: #4F001A;
-	font-family: cursive Comic;
+	font-family: Tahoma;
 	color: #824848;
 	padding: 3px;
-	border: dashed 3px #D6AF89;
+	
 }
 
 .headshot{
 	border: inset #3A1236;
 	height: 60px;
 	width: 60px;
+	float: right;
 
 }
-
-
-
-
-
