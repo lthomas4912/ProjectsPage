@@ -8,7 +8,11 @@ Backgroud Color: #EACBD2;
 */
 
 body{
-	background: #EACBD2;
+	font-family: 'Handlee', cursive;
+    font-size: 13pt;
+    background-color: #EACBD2;
+    padding: 10px;
+    margin: 0;
 }
 
 h1{
@@ -22,6 +26,7 @@ h1{
 
 h2{
 	font-family: Comic Sans, sans-serif;
+	font color: #DFAEB4;
 }
 
 h3{
@@ -30,14 +35,22 @@ h3{
 	position: relative;
 	bottom: 0;
 	left: 0;
+	text-align: center;
 }
+
 p {
     text-align: center;
-    color: #894848;
-    font: italic 20px Lucida Handwriting , Charcoal, sans-serif;
-    padding: 5px;
+    padding:0;
     margin: auto;
+    
+    /*background-size: 30px;
+    font: italic bold 20px Lucida Handwriting , Charcoal, sans-serif;*/
+   /* padding: 5px;
+    margin: 20px;
+    position: relative;*/
+
 }
+
 
 a{
 	color: #D6AF89;
@@ -47,46 +60,95 @@ a:hover{
 	color: purple;
 }
 
-a:link{
-	color: red;
-}
-
 a:active{
 	color: black;
+}
+
+span{
+	float: right;
+	position: all;
+
+
 }
 /*#slideshow {
     
     border: 1px black;
 }*/
 
-ul li {
+#firstlist{
 	background: #AD7998;
-    margin: 5px;
-    display: block;
-    padding: 20px;
-    border: 3px solid #3A1236;
-    margin: 10px;
-    float: left;
+    display: contents;
+    font-size: 16pt;
+    font-weight: bold;
+    /*border: 3px dashed #3A1236;*/
+    position: relative;
+   
 }
 
-.better {
-    background-color: #DFAEB4;
-    border: none !important;
+.greeting{
+	text-align: left 100px;
+	margin: 50px;
+	background-size: auto;
+	background-color: #DFAEB4;
+	color: #894848;
 }
 
+.better{
+	text-align: center;
+	background-color: #DFAEB4;
+	color: #894848;
+	/*position: absolute;*/
+	padding-left: 20px;
+	padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    float:right;
+}
 
 .projects{
-	position: relative;
 	font-family: Tahoma;
 	color: #824848;
 	padding: 3px;
-	
-}
+	}
+
+
+.project{
+	font-family: Tahoma;
+	font color: #4F0E42;
+	}
 
 .headshot{
+	height: 350px;
+	width: 350px;
 	border: inset #3A1236;
-	height: 60px;
-	width: 60px;
-	float: right;
+	top: 30px;
+	margin: auto;
+}
 
+  h2 span{
+	float: initial;
+}
+
+#project1{
+	float:left;
+	margin-top: 35px;
+}
+
+#project2{
+	float: left;
+	/*position: static;*/
+	margin-left:40px;
+	margin-top: 35px;
+}
+   
+#skills{
+	float: left;
+	clear:both;
+}
+
+#myskills {
+	clear: both;
+	font color: #4F0E42;
+	font-size: 14pt;
+	list-style-type: circle; 
 }
