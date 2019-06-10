@@ -42,13 +42,6 @@ p {
     text-align: center;
     padding:0;
     margin: auto;
-    
-    /*background-size: 30px;
-    font: italic bold 20px Lucida Handwriting , Charcoal, sans-serif;*/
-   /* padding: 5px;
-    margin: 20px;
-    position: relative;*/
-
 }
 
 
@@ -64,16 +57,13 @@ a:active{
 	color: black;
 }
 
-span{
+/*span{
 	float: right;
-	position: all;
+	
 
 
-}
-/*#slideshow {
-    
-    border: 1px black;
 }*/
+
 
 #firstlist{
 	background: #AD7998;
@@ -102,7 +92,7 @@ span{
 	padding: 15px;
     margin-bottom: 10px;
     border-radius: 10px;
-    float:right;
+   
 }
 
 .projects{
@@ -125,30 +115,32 @@ span{
 	margin: auto;
 }
 
-  h2 span{
+h2 span{
 	float: initial;
 }
 
 #project1{
-	float:left;
 	margin-top: 35px;
+	padding-right: 10px;
 }
 
 #project2{
-	float: left;
+	/*float: left;*/
 	/*position: static;*/
-	margin-left:40px;
+	margin-right:;
 	margin-top: 35px;
 }
    
 #skills{
-	float: left;
+	/*float: inherit;*/
 	clear:both;
 }
 
 #myskills {
 	clear: both;
-	font color: #4F0E42;
+	font color: #894848;
 	font-size: 14pt;
 	list-style-type: circle; 
+	
+	
 }
